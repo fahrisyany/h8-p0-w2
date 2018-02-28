@@ -1,7 +1,7 @@
 
-var tanggal = 13;
+var tanggal = 1;
 var bulan = 1;
-var tahun = 1945;
+var tahun = 1911;
 
 switch(bulan) {
   case 1 : bulan ='Januari';break;
