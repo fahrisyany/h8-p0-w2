@@ -1,0 +1,37 @@
+-------Question 1--------
+
+STORE Mass = "600kg"
+STORE acc = "2/s2"
+STORE Newton ii = "mass" * "acc"
+
+CALCULATE "newton ii" with "mass"* 
+"acc"
+SET "newton ii" value with calculation result
+
+DISPLAY "area
+
+-------Question 2--------
+
+if "LEAP YEAR" do 
+  (year modulo 4=0) and (year modulo 100 is not 0)
+    Else if (year modulo 4=0, year modulo 100=0 & year modulo 400=0) 
+then TRUE
+ Else FALSE
+ 
+-------Question 3---------
+   
+STORE "cloth" with 1
+ while "cloth" < 20
+  add "cloth"
+ if "cloth" = 20
+ do "laundry" 
+Else  
+ do "not' laundry"
+ 
+ -------Question 4---------
+   
+Store "student" with "1"
+while "student" < 40
+ add "student" 
+ if "student" = 40
+display "teacher-finish-checking-nails"
