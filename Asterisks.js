@@ -10,14 +10,19 @@ for(i=1 ; i<=rows1 ; i++)
 ////////////////////////////////////
 
 var rows2= "5";
-var stars="" 
+var coll2="" ;
 
-for(i=1 ;i<=rows2 ; i++)
-{   
+for(i=1 ; i<=rows2 ; i++){
     
-    console.log("*"+"*"+"*"+"*"+"*")
-    
-}
+    coll2 ="";
+   
+    for (k=1; k<=rows2; k++)
+
+    coll2 +="*";{
+}    
+console.log(coll2);
+    }
+
 
 ////////////////////////////////////
 
